@@ -1,0 +1,38 @@
+[
+  {
+    "codigo": 926,
+    "destino": "Santo Domingo, Republica Dominicana",
+    "horario": "2023-06-30T09:30:00",
+    "asiento": "75C"
+  },
+  {
+    "codigo": 626,
+    "destino": "Buenos Aires, Argentina",
+    "horario": "2023-06-30T09:30:00",
+    "asiento": "96C"
+  },
+  {
+    "codigo": 426,
+    "destino": "Santo Domingo, Republica Dominicana",
+    "horario": "2023-06-30T09:30:00",
+    "asiento": "08B"
+  },
+  {
+    "codigo": 326,
+    "destino": "Paris, Francia",
+    "horario": "2023-06-30T09:30:00",
+    "asiento": "55A"
+  },
+  {
+    "codigo": 226,
+    "destino": "Santo Domingo, Republica Dominicana",
+    "horario": "2023-06-30T09:30:00",
+    "asiento": "21B"
+  },
+  {
+    "codigo": 826,
+    "destino": "Santo Domingo, Republica Dominicana",
+    "horario": "2023-06-30T09:30:00",
+    "asiento": "12A"
+  }
+]

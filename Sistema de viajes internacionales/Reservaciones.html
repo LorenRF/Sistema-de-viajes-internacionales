@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/Reservaciones.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="CSS/Reservaciones.css">
+    <title>Reservaciones</title>
+</head>
+<body>
+    <div class="panel">
+    <div class = "radio">
+        <input type="radio" name="formato" value="json" id="json" checked>
+        <label for="json">JSON</label><br>
+        <input type="radio" name="formato" value="txt" id="txt">
+        <label for="txt">TXT</label><br>
+        <input type="radio" name="formato" value="excel" id="excel">
+        <label for="excel">Excel</label><br>
+      </div>
+    <div class="container" id="container">
+        <ol id="list"> </ol>
+    </div></div>
+    <Button id="home" class="button">Volver a la pagina principal</Button>
+</body>
+</html>

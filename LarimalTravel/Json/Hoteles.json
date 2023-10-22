@@ -1,0 +1,39 @@
+[
+  /*{
+    "estrellas": 3,
+    "ubicacion": "Santo Domingo, Republica Dominicana",
+    "habitacion": "habitacion presidencial",
+    "id": 421
+  },*/
+  {
+    "estrellas": 5,
+    "ubicacion": "La Romana, Republica Dominicana",
+    "habitacion": "Penthouse",
+    "id": 113
+  } /*,
+  {
+    "estrellas": 4,
+    "ubicacion": "Santo Domingo, Republica Dominicana",
+    "habitacion": "habitacion presidencial",
+    "cuposDisponibles": 1,
+    "id": 653
+  }
+  {
+    "estrellas": 3,
+    "ubicacion": "Paris, Francia",
+    "habitacion": "Penhouse",
+    "id": 890
+  },
+  {
+    "estrellas": 2,
+    "ubicacion": "Buenos Aires, Argentina",
+    "habitacion": "habitacion presidencial",
+    "id": 312
+  },
+  {
+    "estrellas": 4,
+    "ubicacion": "Punta Cana, Republica Dominicana",
+    "habitacion": "Penthouse",
+    "id": 567
+  }*/
+]

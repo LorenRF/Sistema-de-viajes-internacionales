@@ -1,0 +1,50 @@
+[
+  {
+    "año": 2023,
+    "marca": "Ferrari",
+    "color": "Amarillo",
+    "modelo": "ASHJ33",
+    "localidad": "Barcelona",
+    "id": 889
+  },
+  {
+    "año": 2015,
+    "marca": "Lamborghini",
+    "color": "blanco",
+    "modelo": "SC18",
+    "localidad": "Santo Domingo",
+    "id": 789
+  },
+  {
+    "año": 2004,
+    "marca": "Porsche",
+    "color": "azul",
+    "modelo": "Porsche 911",
+    "localidad": "New York",
+    "id": 235
+  },
+  {
+    "año": 2013,
+    "marca": "Audi",
+    "color": "negro",
+    "modelo": "Audi Q8",
+    "localidad": "Santo Domingo",
+    "id": 678
+  },
+  {
+    "año": 2012,
+    "marca": "Ford",
+    "color": "negro",
+    "modelo": "Ford Mustang Boss 429",
+    "localidad": "Santo Domingo",
+    "id": 325
+  },
+  {
+    "año": 2024,
+    "marca": "Toyota",
+    "color": "Azul",
+    "modelo": "Toyota Supra",
+    "localidad": "Paris",
+    "id": 546
+  }
+]

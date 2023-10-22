@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+:root {
+
+    /**
+     * colors
+     */
+  
+    --united-nations-blue: hsl(214, 56%, 58%);
+    --bright-navy-blue: hsl(214, 57%, 51%);
+    --spanish-gray: hsl(0, 0%, 60%);
+    --black-coral: hsl(225, 8%, 42%);
+    --oxford-blue: hsl(208, 97%, 12%);
+    --yale-blue: hsl(214, 72%, 33%);
+    --blue-ncs: hsl(197, 100%, 36%);
+    --gunmetal: hsl(206, 34%, 20%);
+    --gainsboro: hsl(0, 0%, 88%);
+    --cultured: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --onyx: hsl(0, 0%, 25%);
+    --jet: hsl(0, 0%, 20%);
+  
+    /*
+      typography
+     */
+  
+     --ff-poppins: "Poppins", sans-serif;
+    --ff-montserrat: "Montserrat", sans-serif;
+  
+    --fs-1: calc(20px + 3.5vw);
+    --fs-2: calc(18px + 1.6vw);
+    --fs-3: calc(16px + 0.45vw);
+    --fs-4: 15px;
+    --fs-5: 14px;
+    --fs-6: 13px;
+    --fs-7: 12px;
+    --fs-8: 11px;
+  
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+  
+    /**
+     * transition
+     */
+  
+    --transition: 0.25s ease-in-out;
+  
+    /**
+     * spacing
+     */
+  
+    --section-padding: 60px;
+  
+    /**
+     * border-radius
+     */
+  
+    --radius-15: 15px;
+    --radius-25: 25px;
+  
+  }
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  font-size: 1.6rem;
+  place-items: center;
+  background: linear-gradient(to right bottom, #ffb88e, #ea5753);
+  font-family: Rockwell, "Courier New", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../IMG/1688444162231.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%; /* Ajusta la imagen al 100% de altura */
+  background-position: right top; /* Alinea la imagen a la izquierda arriba */
+  z-index: -1; /* Coloca la imagen detrás del contenido */
+}
+
+.container {
+  width: 33vw;
+  height: 30vw;
+  padding: 3rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  border-radius: 3rem;
+  background: linear-gradient(to right bottom, rgba(255, 184, 142, 0.44), rgba(255, 255, 255, 0.5));
+}
+.container::-webkit-scrollbar {
+  width: 0;
+}
+.container::before {
+  content: "";
+  top: -10rem;
+  left: -10rem;
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+}
+.container::after {
+  content: "";
+  bottom: 0rem;
+  right: -10rem;
+  width: 30rem;
+  height: 30rem;
+  margin-bottom: -25rem;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 185, 142, 0.6);
+}
+
+.container label {
+  margin: 0;
+  gap: 1rem;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  place-items: center;
+  flex-direction: column;
+  counter-reset: my-counter;
+}
+.container label {
+  width: 40rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 3rem;
+  background: rgba(234, 87, 83, 0.7);
+  counter-increment: my-counter;
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+}
+
+.inf-panel
+{align-items: center;
+justify-content: center;
+padding: 3rem;
+overflow-y: hidden;
+overflow-x: hidden;
+margin-top: 3rem;
+border-radius: 3rem;
+background: linear-gradient(to right bottom, rgba(255, 184, 142, 0.44), rgba(255, 255, 255, 0.5));
+}
+
+
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  position: absolute;
+bottom: 10rem;
+  
+}
+
+button { cursor: pointer; }
+
+.btn {
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: var(--fs-5);
+  border-radius: 100px;
+  padding: var(--padding, 8px 18px);
+  border: var(--border-width, 2px) solid transparent;
+  transition: var(--transition);
+}
+
+.btn-register 
+{ 
+  border-color: whitesmoke;
+  background-color:var(--blue-ncs);
+  left: 20%;
+
+}
+
+.btn-login 
+{ 
+  border-color: whitesmoke;
+  background-color:var(--yale-blue);
+  right: 20%;
+}
+
+.btn-book:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    
+  }
+  
+  input:focus {
+    outline: none;
+  }
+
+  #book{
+    position: absolute;
+    right: 0;
+  }
+
+  
+
+/* los cuadrados de fondo */
+
+
+section .color:nth-child(1) {
+  top: -350px;
+  width: 600px;
+  height: 600px;
+  background: #ff359b;
+
+}
+section .color:nth-child(2) {
+  bottom: -150px;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+  background: #fffd87;
+
+}
+section .color:nth-child(3) {
+  bottom: 50px;
+  right: 100px;
+  width: 300px;
+  height: 300px;
+  background: #00d2ff;
+
+}
+
+/* cuadrados movimiento */
+
+
+.box {
+  position: relative;
+  
+}
+.box .square {
+  position: absolute;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, .1);
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-right: 1px solid rgba(255, 255, 255, .2);
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .1);
+  border-radius: 10px;
+  animation: animate 10s linear infinite;
+  animation-delay: calc(-1s * var(--i));
+}
+@keyframes animate {
+  0%, 100% {
+      transform: translateY(-40px);
+  }
+  50% {
+      transform: translateY(40px);
+  }
+}
+.box .square:nth-child(1) {
+  top: -50px;
+  right: -200px;
+  width: 100px;
+  height: 100px;
+  top: 0%;
+}
+.box .square:nth-child(2) {
+  top: 150px;
+  left: -130px;
+  width: 120px;
+  height: 120px;
+  z-index: 2;
+  top: 0%;
+}
+.box .square:nth-child(3) {
+  bottom: 50px;
+  right:  0px;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+  top: 30%;
+
+}
+
+.box .square:nth-child(3) img {
+  transform: scale(0.5); /* Reducir el tamaño a la mitad */
+  display: block;
+  left: 0;
+}
+
+.box .square:nth-child(4) {
+  bottom: -80px;
+  left:   -300px;
+  width: 50px;
+  height: 50px;
+  top: 0%;
+}
+.box .square:nth-child(5) {
+  top: -80px;
+  left:   140px;
+  width: 60px;
+  height: 60px;
+  top: 0%;
+}
+
+.hh{
+  margin-bottom: 2rem;
+  left: 10PX;
+  z-index: 4; 
+   position: relative;
+}
+
+.hh h1{
+  z-index: 2; 
+    top: 0;
+  left: 0;
+  z-index: 9999;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/Vuelos.css">
+  <script src="js/Vuelos.js" defer></script>
+  <title>Larimal</title>
+</head>
+<body>
+    <div class="background-image"></div>
+
+    <header>
+        <nav>
+            <ul class="navbar-list">
+  
+                <li>
+                  <a href="#" class="navbar-link" id="home" data-nav-link>Home</a>
+                </li>
+
+                <li>
+                  <a href="#" class="navbar-link" id="Viajes" data-nav-link>Vuelos</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="navbar-link" id="Hoteles" data-nav-link>Hoteles</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="navbar-link" id="Transportes" data-nav-link>Transporte</a>
+                </li>
+
+    
+              </ul>
+              <button class="button" id="book">Book Now</button>
+        </nav>
+      </header>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+        <div id="search-panel" class="panel">
+          <h3>Buscar vuelos</h3>
+          <form id="search" action="#">
+            <div>
+              <label>
+                <input type="text" name="search" id="search-input" placeholder="El destino o codigo de vuelo" />
+              </label>
+            </div>
+            <input type="submit" value="Buscar" class="button" id="button"/>
+          </form>
+        </div>
+        <div class="list">
+        <ol id="list">
+
+        </ol>
+    </div>
+    </div>
+    <!-- partial -->
+      
+    </body>
+</html>

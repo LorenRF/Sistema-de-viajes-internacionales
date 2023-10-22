@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/ReservacionVuelo.css">
+  <script src="js/ReservacionVuelo.js" defer></script>
+  <title>Larimal</title>
+</head>
+<body>
+    <div class="background-image"></div>
+
+    <header>
+        <nav>
+            <ul class="navbar-list">
+  
+                <li>
+                  <a href="#" class="navbar-link" id="home" data-nav-link>home</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="navbar-link" id="Vuelos" data-nav-link>Vuelos</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="navbar-link" id="Hoteles" data-nav-link>Hoteles</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="navbar-link" id="Transportes" data-nav-link>Transportes</a>
+                </li>
+
+    
+              </ul>
+              <button class="button" id="book">Book Now</button>
+        </nav>
+      </header>
+    <div class="inf-panel">
+      <div class="datos" id="datos">
+
+        
+      </div>
+      <div class = "radio">
+        <input type="radio" name="formato" value="json" id="json" checked>
+        <label for="json">JSON</label><br>
+        <input type="radio" name="formato" value="txt" id="txt">
+        <label for="txt">TXT</label><br>
+        <input type="radio" name="formato" value="excel" id="excel">
+        <label for="excel">Excel</label><br>
+      </div>
+      <button class="btn btn-book" id="btn">Reserva ahora</button>
+    </div>
+</body>
+</html>

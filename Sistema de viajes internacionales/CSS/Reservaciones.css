@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  font-size: 1.6rem;
+  place-items: center;
+  background: linear-gradient(to right bottom, #ffb88e, #ea5753);
+  font-family: Rockwell, "Courier New", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+
+align-items: center;
+justify-content: center;
+  width: 40vw;
+  padding: 3rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 3rem;
+  border-radius: 3rem;
+  background: linear-gradient(to right bottom, rgba(255, 184, 142, 0.44), rgba(255, 255, 255, 0.5));
+  overflow-y: auto;
+  max-height: 450px;
+  right: 20%;
+
+}
+.container::-webkit-scrollbar {
+  width: 0;
+}
+
+.container h3 {
+  
+  padding-top: 0;
+  position: sticky;
+  text-align: center;
+  color: #fff;
+  
+}
+.panel{
+  border-radius: 3rem;
+
+ justify-content: center;
+ top: 0;
+  margin-bottom: 3rem;
+  box-shadow: 0 7px 2rem #ea5753;
+  background: rgba(234, 87, 83, 0.7);
+    padding: 1em;
+    width: 92.5%;
+    margin: auto;
+    max-width: 45em;
+    max-height: 550px;}
+.container ol {
+  padding: 10rem;
+  margin: 0;
+  gap: 1rem;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  place-items: center;
+  flex-direction: column;
+  counter-reset: my-counter;
+}
+
+.container ol li {
+  width: 40rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 3rem;
+  background: rgba(234, 87, 83, 0.7);
+  counter-increment: my-counter;
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+  pointer-events: painted;
+}
+.container ol li::before {
+  content: counter(my-counter) ". ";
+}
+
+.form{
+    z-index: 5;
+   }
+
+
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    position: relative;
+    
+  }
+  
+  input:focus {
+    outline: none;
+  }
+
+  .list{
+    padding-top: 50px;
+  }
+
+  nav button {
+    display: flex;
+    justify-content: center;
+    background-color: #8e94ff;
+  }
+/* Estilos para los datos de usuario */
+/* Estilos para los datos de usuario */
+.user-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .user-data h1 {
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .user-data h2 {
+    color: #666;
+  }
+  
+  
+  /* Estilos para los datos del avión */
+  .flight-data {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .flight-data h1 {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .flight-data h2 {
+    color: #888;
+    margin-bottom: 5px;
+  }
+  .button {
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+  }
+    
+.radio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+.radio input{
+  background-color: rgba(255, 0, 0, 0.3);
+  border: 40%;
+}
