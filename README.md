@@ -34,6 +34,16 @@ Mientras corres la API abre el index.htm. podras realizar cualquieras de las fun
 * [C#]([https://maven.apache.org/](https://learn.microsoft.com/es-es/dotnet/csharp/)) - Lenguaje utilizado
 * [JQuery]([https://rometools.github.io/rome/](https://jquery.com/)) - Frond-End biblioteca
 
+## Imagenes 🖼️
+![captura de pantalla](IMG/log.png)
+![captura de pantalla](IMG/viajes.png)
+![captura de pantalla](IMG/rviaje.png)
+![captura de pantalla](IMG/hoteles.png)
+![captura de pantalla](IMG/vehiculos.png)
+![captura de pantalla](IMG/r.png)
+![captura de pantalla](IMG/index.png)
+
+
 ## Autoria ✒️
 
 * **Loren Feliz** - *Creadora* - [LorenFeliz](#LorenRF)
